@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+#nav {
+    width: 100%;
+    padding: 29px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#headings {
+    margin-top: 50px;
+}
+
+#headings #secondh1{
+     margin-left: 119px;
+}
+
+#headings h1 {
+    margin-left: 30px;
+    opacity: .7;
+    font-family: 'General Sans Regular';
+    font-size: 11vw;
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.blocktext {
+    width: fit-content;
+}
+
+.blocktext h5 {
+    text-align: right;
+    font-size: 15px;
+}
+
+#chotiheadings {
+    margin-top:100px;
+    padding-right: 50px;
+}
+
+#chotiheadings h5 {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+#herofooter {
+    padding: 0 2vw;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#herofooter a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#herofooter #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 50%;
+}
+
+#second {
+    color: #fff;
+    padding-top: 120px;
+    padding-right: 10vw;
+    width: 100%;
+    background-color: black;
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    width: 100%;
+    border-top: 1px solid #777;
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: .7;
+}
+
+#elem-last {
+    border-bottom: 1px solid #777;
+}
+
+.elem img {
+    height: 120%;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+#about {
+    height: 100vh;
+    padding-top: 100px ; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    padding: 10vw 10vw;
+    padding-left: 32vw;
+    background-color: black;
+    width: 100%;
+}
+
+#text-about {
+    width: 35rem;
+}
+
+#text-about h5 {
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#about img {
+    width: 230px;
+}
+
+#text-about p {
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+#text-about a {
+    padding: 8px 22px;
+    font-size: 12px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#subscribe {
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+}
+
+#subscribe h5 {
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+#footerleft {
+    display: flex;
+    gap: 20px;
+}
+
+#footerright {
+    display: flex;
+    gap: 30px;
+}
+
+#footer a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modren Web development</title>
+    <link rel="stylesheet" href="loco.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="minicircle"></div>
+    <div id="main">
+       <div id="hero">
+            <div id="nav">
+                <a href="#"><b>Cynthia Ugwu</b></a>
+                <h4>Menu+</h4>
+            </div>
+            <div id="headings">
+                <div class="bounding">
+                    <h1 class="boundingelem">Product</h1>
+                </div>
+                
+                <div class="blocktext">
+                    <div class="bounding">
+                        <h1 class="boundingelem" id="secondh1">Designer</h1>
+                    </div>
+                    <div class="bounding">
+                        <h5 class="boundingelem" id="secondh1">BASED IN TORONTO</h5>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div id="chotiheadings">
+                <div class="bounding">
+                    <h5 class="boundingelem">available for freelancer</h5>
+                </div>
+                <div class="bounding">
+                    <h5 class="boundingelem">Work from may 23'</h5>
+                </div>
+            </div>
+            <div id="herofooter">
+                <a href="#">currently working at yml <i class="ri-arrow-right-up-line"></i></a>
+                <a href="#">protopie ambassador <i class="ri-arrow-right-up-line"></i></a>
+                <div id="iconset">
+                    <div class="circles"><i class="ri-arrow-down-line"></i></div>
+                    <div class="circles"><i class="ri-arrow-up-line"></i></div>
+                </div>
+            </div>
+        </div> 
+       <div id="second">
+            <div class="elem">
+                <img src="img/plug.png" alt="kuch bhi">
+                <h1>The Plug</h1>
+                <h5>2022</h5>
+            </div>
+            <div class="elem">
+                <img src="img/ixperience.png">
+                <h1>ixperience</h1>
+                <h5>2022</h5>
+            </div>
+            <div class="elem" id="elem-last">
+                <img src="img/hudu.png">
+                <h1>Hudu</h1>
+                <h5>2021</h5>
+            </div>
+        </div> 
+        <div id="about">
+            <img src="img/cynthia.png">
+            <div id="text-about">
+                <h5>(ABOUT ME)</h5>
+                <p>I'm a product designer with a passion for creating products that not only look good but also solve real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or playing video games. My design philosophy is simple: make it visually appealing, functional, and bring a smile to people's faces. I'm the designer you want on your team if you want to make people say 'I need that in my life!'.</p>
+                <a href="">Let's talk</a>
+            </div>
+        </div> 
+        <div id="subscribe">
+            <h5>(forgot to mention)</h5>
+            <h3>Subscribe to my youtube Channel <i class="ri-arrow-right-up-line"></i></h3>
+        </div>
+        <div id="footer">
+            <div id="footerleft">
+                <h5>2023 &copy;</h5>
+                <h5>11:47 AM EST</h5>
+            </div>
+            <div id="footerright">
+                <a href="#">Dribble</a> <a href="#">Instagram</a> <a href="#">Linkdin</a> <a href="#">Twitter</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
